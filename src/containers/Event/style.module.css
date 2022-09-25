@@ -1,0 +1,291 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica;
+  background: #fbfaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventName {
+  position: absolute;
+  width: 333px;
+  height: 37px;
+  left: 240px;
+  top: 194px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+
+  color: #240d57;
+}
+.hostName {
+  position: absolute;
+  width: 155px;
+  height: 15px;
+  left: 240px;
+  top: 248px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #828282;
+}
+
+.date {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  gap: 137px;
+
+  position: absolute;
+  height: 72px;
+  left: 240px;
+  right: 826px;
+  top: 320px;
+
+  border-radius: 10px;
+}
+
+.dateInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 277px;
+  height: 56px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  color: #bdbdbd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.dateInfoIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+
+  width: 56px;
+  height: 56px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  color: #8456ec;
+}
+
+.dateInfoText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px !important;
+
+  width: 109px;
+  height: 45px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.startDate {
+  width: 155px;
+  height: 21px;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #240d57;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.endDate {
+  width: 253px;
+  height: 21px;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #4f4f4f;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.location {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  gap: 137px;
+
+  position: absolute;
+  height: 72px;
+  left: 240px;
+  right: 826px;
+  top: 409px;
+
+  border-radius: 10px;
+}
+
+.locationInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 277px;
+  height: 56px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.locationInfoIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+
+  width: 56px;
+  height: 56px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.streetName {
+  width: 104px;
+  height: 21px;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #240d57;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.adresse {
+  padding: 0;
+  margin: 0;
+  width: 196px;
+  height: 21px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #4f4f4f;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: calc(50% - 500px / 2 + 266px);
+  top: 184px;
+  background: url(./img/birthday_cake.png);
+  background-size: cover;
+}

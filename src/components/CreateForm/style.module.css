@@ -1,9 +1,34 @@
 .Form {
   width: 440px;
-  height: 775.69px;
+  /* height: 775.69px; */
+  /* background: linear-gradient(0deg, #fde5ff, #f6f2ff), #ccb6ff; */
   border: 1px solid red;
   filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
   border-radius: 35.1522px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  font-family: Helvetica;
+  background-color: white;
+}
+
+.label {
+  margin: 0.2em .5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.input {
+  background-color: #f2f2f2;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin: .5em;
+  padding: .5em;
+  font-family: Helvetica;
+  font-weight: 500;
 }
