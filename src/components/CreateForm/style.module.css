@@ -1,14 +1,20 @@
-.Form {
-  width: 440px;
-  /* height: 775.69px; */
-  /* background: linear-gradient(0deg, #fde5ff, #f6f2ff), #ccb6ff; */
-  border: 1px solid red;
+.container {
   filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
   border-radius: 35.1522px;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  font-family: Helvetica;
+  background-color: white;
+}
+
+.Form {
+  /* width: 700px; */
+  /* height: 775.69px; */
+  /* background: linear-gradient(0deg, #fde5ff, #f6f2ff), #ccb6ff; */
+  display: flex;
+  flex-direction: row;
   padding: 2%;
   font-family: Helvetica;
   background-color: white;
@@ -16,9 +22,10 @@
 
 .label {
   margin: 0.2em .5em;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
   font-weight: bold;
+  color: #240d57;
 }
 
 .input {
@@ -28,7 +35,97 @@
   border-radius: 10px;
   height: 40px;
   margin: .5em;
-  padding: .5em;
+  padding: .3em .5em;
   font-family: Helvetica;
-  font-weight: 500;
+  font-size: 1.2em;
+  color: #240d57;
+  /* font-weight: bold; */
+}
+
+.imageInput {
+  background-color: #f2f2f2;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 80%;
+  width: 90%;
+  margin: .5em;
+  padding: .3em .5em;
+  font-family: Helvetica;
+  font-size: 1.2em;
+  color: #240d57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */;
+}
+
+.nextButton {
+  width: 120px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  /* padding: 16px; */
+  gap: 10px;
+  margin: .5em;
+
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+  text-align: center;
+}
+.buttonLabel {
+  width: 181px;
+  height: 23px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.browseFiles span {
+	position: relative;
+	top: -25px;
+}
+.defaultImageInput {
+	opacity: 0;
 }

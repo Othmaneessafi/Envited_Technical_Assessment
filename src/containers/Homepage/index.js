@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../../components/Card";
 import Styles from "./style.module.css";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -19,9 +20,11 @@ const index = () => {
           media.
         </p>
       </div>
-      <div className={Styles.createButton}>
-        <p className={Styles.buttonLabel}>🎉 Create my event</p>
-      </div>
+      <Link to="/create">
+        <div className={Styles.createButton}>
+          <p className={Styles.buttonLabel}>🎉 Create my event</p>
+        </div>
+      </Link>
     </div>
   );
 };
